@@ -1,0 +1,63 @@
+body{
+    background-color: azure;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 8px;
+    font-size: 40px;
+}
+.input{
+    text-align: center;
+    background-color: rgb(178, 235, 235);
+    padding: 50px;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+#location{
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px;
+}
+#location:hover{
+    border: 2px black solid;
+}
+#btn{
+    height: 35px;
+    width: 20%;
+    background-color: rgb(59, 136, 237);
+    font-size: 20px;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 3px;
+    
+}
+.info{
+    background-color: rgb(29, 212, 212);
+    height:300px ;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 5px;
+}
+#temp-info{
+    font-size: 40px;
+}
+#weather-info{
+    font-size: 30px;
+}
+#location-info{
+    font-size: 40px;
+}
+#icon{
+    
+    height: 130px;
+    width: 130px;
+}
